@@ -56,5 +56,7 @@ do {
             a = n1
             b = n2
             c = n3
+            int coef_x = 2 * a;
+            int coef_const = b;
 
     return 0;
