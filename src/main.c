@@ -11,7 +11,7 @@ void exibirMenu() {
     printf("Escolha uma opcao: ");
 }
 
-int main() 
+int main() {
     int opcao;
     float n1 = 0, n2 = 0, n3 = 0, n4 = 0, media = -1, notarec = 0;
     int a, b, c;
@@ -20,6 +20,12 @@ do {
         scanf("%d", &opcao);
  
         switch(opcao) {
+
+            case 1:
+                printf("Informe as 4 notas (0 a 10): ");
+                scanf("%f %f %f %f", &n1, &n2, &n3, &n4);
+                printf("Notas registradas!\n");
+                break;
 int main() {
     
 
