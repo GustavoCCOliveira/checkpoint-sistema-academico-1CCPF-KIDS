@@ -32,5 +32,7 @@ do {
                 break;
 
             case 3:
+            if (media < 0) {
+                printf("Calcule a media primeiro!\n");
     return 0;
 }
