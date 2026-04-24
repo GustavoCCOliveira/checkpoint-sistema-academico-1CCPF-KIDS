@@ -70,5 +70,6 @@ do {
                 printf("f'(x) = %dx - %d\n", coef_x, -coef_const);
             }
                 break;
+            case 6:
 
     return 0;
