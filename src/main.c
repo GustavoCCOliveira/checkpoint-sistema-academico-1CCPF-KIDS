@@ -27,6 +27,7 @@ do {
                 printf("Notas registradas!\n");
                 break;
             case 2:
+                media = (n1 + n2 + n3 + n4) / 4;
     
 
     
