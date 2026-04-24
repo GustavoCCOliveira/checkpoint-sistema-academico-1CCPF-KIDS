@@ -53,5 +53,8 @@ do {
             }
                 break;
             case 5:
-            
+            a = n1
+            b = n2
+            c = n3
+
     return 0;
