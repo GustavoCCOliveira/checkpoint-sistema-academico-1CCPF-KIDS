@@ -71,5 +71,15 @@ do {
             }
                 break;
             case 6:
-
+                printf("Saindo...\n");
+                break;
+ 
+            default:
+                printf("Opcao Invalida!\n");
+        }
+ 
+    } while (opcao != 6);
+ 
     return 0;
+}
+
