@@ -15,6 +15,8 @@ int main() {
     int opcao;
     float n1 = 0, n2 = 0, n3 = 0, n4 = 0, media = -1, notarec = 0;
     int a, b, c;
+    int coef_const
+    int coef_x
 do {
         exibirMenu();
         scanf("%d", &opcao);
@@ -53,9 +55,9 @@ do {
             }
                 break;
             case 5:
-            a = n1
-            b = n2
-            c = n3
+            a = n1;
+            b = n2;
+            c = n3;
             int coef_x = 2 * a;
             int coef_const = b;
             if (coef_x == 0 && coef_const == 0) {
