@@ -44,4 +44,5 @@ do {
                 printf("Reprovado com media: %.2f\n", media);
             }
                 break;
+            case 4:
     return 0;
