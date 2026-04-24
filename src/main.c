@@ -36,4 +36,12 @@ do {
                 printf("Calcule a media primeiro!\n");
             } else if (media >= 6) {
                 printf("Aluno aprovado com: %.2f\n", media);
+            } else if (media >= 4 && media < 6) {
+                notarec = 10 - media;
+                printf("Recuperacao com: %.2f\n", media);
+                printf("Precisa de: %.2f\n", notarec);
+            } else {
+                printf("Reprovado com media: %.2f\n", media);
+            }
+                break;
     return 0;
