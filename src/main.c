@@ -26,7 +26,7 @@ do {
                 scanf("%f %f %f %f", &n1, &n2, &n3, &n4);
                 printf("Notas registradas!\n");
                 break;
-int main() {
+            case 2:
     
 
     
