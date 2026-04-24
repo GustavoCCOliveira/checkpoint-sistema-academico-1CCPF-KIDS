@@ -58,5 +58,17 @@ do {
             c = n3
             int coef_x = 2 * a;
             int coef_const = b;
+            if (coef_x == 0 && coef_const == 0) {
+                printf("f'(x) = 0\n");
+            } else if (coef_x == 0) {
+                printf("f'(x) = %d\n", coef_const);
+            } else if (coef_const == 0) {
+                printf("f'(x) = %dx\n", coef_x);
+            } else if (coef_const > 0) {
+                printf("f'(x) = %dx + %d\n", coef_x, coef_const);
+            } else {
+                printf("f'(x) = %dx - %d\n", coef_x, -coef_const);
+            }
+                break;
 
     return 0;
