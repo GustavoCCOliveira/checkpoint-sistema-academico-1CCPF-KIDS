@@ -34,5 +34,6 @@ do {
             case 3:
             if (media < 0) {
                 printf("Calcule a media primeiro!\n");
+            } else if (media >= 6) {
+                printf("Aluno aprovado com: %.2f\n", media);
     return 0;
-}
