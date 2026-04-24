@@ -2,7 +2,11 @@
 
 ## Modalidade
 Grupo de 5 integrantes
-
+Gustavo Torres de Oliveira -572952
+Diogo Chiaradia Santos - 570246
+Lucas Furquim Lima - 568690
+Rafael Laprega Gontijo Magalhães - 561975
+Pedro Ribeiro Lopes - 570083
 ## Regras
 - Trabalhar no mesmo repositório
 - Mínimo de 3 commits por integrante
