@@ -31,6 +31,6 @@ do {
                 printf("Media calculada: %.2f\n", media);
                 break;
 
-    
+            case 3:
     return 0;
 }
