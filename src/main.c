@@ -44,5 +44,12 @@ do {
                 printf("Reprovado com media: %.2f\n", media);
             }
                 break;
+           
             case 4:
+            if (media < 0) {
+                printf("Media ainda nao calculada!\n");
+            } else {
+                printf("Media atual: %.2f\n", media);
+            }
+                break;
     return 0;
