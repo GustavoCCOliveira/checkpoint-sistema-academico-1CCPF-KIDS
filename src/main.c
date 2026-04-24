@@ -52,4 +52,6 @@ do {
                 printf("Media atual: %.2f\n", media);
             }
                 break;
+            case 5:
+            
     return 0;
